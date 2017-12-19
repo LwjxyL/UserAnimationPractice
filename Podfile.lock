@@ -1,0 +1,32 @@
+PODS:
+  - Kingfisher (4.1.0)
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxDataSources (1.0.4):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
+  - RxGesture (1.1.1):
+    - RxCocoa (~> 3.6)
+    - RxSwift (~> 3.6)
+  - RxSwift (3.6.1)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Kingfisher
+  - RxCocoa (~> 3.0)
+  - RxDataSources (~> 1.0)
+  - RxGesture
+  - RxSwift (~> 3.0)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Kingfisher: f14df8cbe576bf55f211fa589e9869bceb4ea87d
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxDataSources: b3389acc5fe2eefb8fcd81a2b76a876ad08bc82a
+  RxGesture: a297957f2940b50f7073d1e7ff0eaa3f87cd27a5
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: a53c3635e217275ec7648166816075dce4d980e8
+
+COCOAPODS: 1.4.0.beta.2
