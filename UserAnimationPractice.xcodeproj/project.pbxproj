@@ -12,6 +12,17 @@
 		AE4838C31FE8B55500F27A91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4838C11FE8B55500F27A91 /* Main.storyboard */; };
 		AE4838C51FE8B55500F27A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4838C41FE8B55500F27A91 /* Assets.xcassets */; };
 		AE4838C81FE8B55500F27A91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4838C61FE8B55500F27A91 /* LaunchScreen.storyboard */; };
+		AE4838F31FE8F2B100F27A91 /* MoyaTTmamaAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838E71FE8F2B100F27A91 /* MoyaTTmamaAPIService.swift */; };
+		AE4838F41FE8F2B100F27A91 /* Response+MapTMResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838E91FE8F2B100F27A91 /* Response+MapTMResponse.swift */; };
+		AE4838F51FE8F2B100F27A91 /* RxSwift+TM_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838EA1FE8F2B100F27A91 /* RxSwift+TM_Response.swift */; };
+		AE4838F61FE8F2B100F27A91 /* TM_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838EB1FE8F2B100F27A91 /* TM_Response.swift */; };
+		AE4838F71FE8F2B100F27A91 /* TMApiUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838EC1FE8F2B100F27A91 /* TMApiUnit.swift */; };
+		AE4838F81FE8F2B100F27A91 /* TMBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838ED1FE8F2B100F27A91 /* TMBaseViewModel.swift */; };
+		AE4838F91FE8F2B100F27A91 /* TMJSONAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838EF1FE8F2B100F27A91 /* TMJSONAble.swift */; };
+		AE4838FA1FE8F2B100F27A91 /* TMResponse+SwiftyJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838F01FE8F2B100F27A91 /* TMResponse+SwiftyJSONMapper.swift */; };
+		AE4838FB1FE8F2B100F27A91 /* TMProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838F11FE8F2B100F27A91 /* TMProgressHUD.swift */; };
+		AE4838FC1FE8F2B100F27A91 /* WangAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838F21FE8F2B100F27A91 /* WangAPIService.swift */; };
+		AE4838FE1FE8F36C00F27A91 /* TTmamaUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838FD1FE8F36C00F27A91 /* TTmamaUser.swift */; };
 		F063E0F74F0B4DBC79F2A15F /* Pods_UserAnimationPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3E32466303C3CEF3475211 /* Pods_UserAnimationPractice.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +36,17 @@
 		AE4838C41FE8B55500F27A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE4838C71FE8B55500F27A91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE4838C91FE8B55500F27A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4838E71FE8F2B100F27A91 /* MoyaTTmamaAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaTTmamaAPIService.swift; sourceTree = "<group>"; };
+		AE4838E91FE8F2B100F27A91 /* Response+MapTMResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+MapTMResponse.swift"; sourceTree = "<group>"; };
+		AE4838EA1FE8F2B100F27A91 /* RxSwift+TM_Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxSwift+TM_Response.swift"; sourceTree = "<group>"; };
+		AE4838EB1FE8F2B100F27A91 /* TM_Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TM_Response.swift; sourceTree = "<group>"; };
+		AE4838EC1FE8F2B100F27A91 /* TMApiUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMApiUnit.swift; sourceTree = "<group>"; };
+		AE4838ED1FE8F2B100F27A91 /* TMBaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMBaseViewModel.swift; sourceTree = "<group>"; };
+		AE4838EF1FE8F2B100F27A91 /* TMJSONAble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMJSONAble.swift; sourceTree = "<group>"; };
+		AE4838F01FE8F2B100F27A91 /* TMResponse+SwiftyJSONMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TMResponse+SwiftyJSONMapper.swift"; sourceTree = "<group>"; };
+		AE4838F11FE8F2B100F27A91 /* TMProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMProgressHUD.swift; sourceTree = "<group>"; };
+		AE4838F21FE8F2B100F27A91 /* WangAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WangAPIService.swift; sourceTree = "<group>"; };
+		AE4838FD1FE8F36C00F27A91 /* TTmamaUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTmamaUser.swift; sourceTree = "<group>"; };
 		FC71728377DE8615A2D8994E /* Pods-UserAnimationPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserAnimationPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserAnimationPractice/Pods-UserAnimationPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +91,7 @@
 		AE4838BC1FE8B55500F27A91 /* UserAnimationPractice */ = {
 			isa = PBXGroup;
 			children = (
+				AE4838E61FE8F2B100F27A91 /* Network */,
 				AE4838BD1FE8B55500F27A91 /* AppDelegate.swift */,
 				AE4838BF1FE8B55500F27A91 /* ViewController.swift */,
 				AE4838C11FE8B55500F27A91 /* Main.storyboard */,
@@ -77,6 +100,40 @@
 				AE4838C91FE8B55500F27A91 /* Info.plist */,
 			);
 			path = UserAnimationPractice;
+			sourceTree = "<group>";
+		};
+		AE4838E61FE8F2B100F27A91 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AE4838E71FE8F2B100F27A91 /* MoyaTTmamaAPIService.swift */,
+				AE4838E81FE8F2B100F27A91 /* TM_Response */,
+				AE4838EC1FE8F2B100F27A91 /* TMApiUnit.swift */,
+				AE4838ED1FE8F2B100F27A91 /* TMBaseViewModel.swift */,
+				AE4838EE1FE8F2B100F27A91 /* TMJSONAble */,
+				AE4838F11FE8F2B100F27A91 /* TMProgressHUD.swift */,
+				AE4838F21FE8F2B100F27A91 /* WangAPIService.swift */,
+				AE4838FD1FE8F36C00F27A91 /* TTmamaUser.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AE4838E81FE8F2B100F27A91 /* TM_Response */ = {
+			isa = PBXGroup;
+			children = (
+				AE4838E91FE8F2B100F27A91 /* Response+MapTMResponse.swift */,
+				AE4838EA1FE8F2B100F27A91 /* RxSwift+TM_Response.swift */,
+				AE4838EB1FE8F2B100F27A91 /* TM_Response.swift */,
+			);
+			path = TM_Response;
+			sourceTree = "<group>";
+		};
+		AE4838EE1FE8F2B100F27A91 /* TMJSONAble */ = {
+			isa = PBXGroup;
+			children = (
+				AE4838EF1FE8F2B100F27A91 /* TMJSONAble.swift */,
+				AE4838F01FE8F2B100F27A91 /* TMResponse+SwiftyJSONMapper.swift */,
+			);
+			path = TMJSONAble;
 			sourceTree = "<group>";
 		};
 		C307C80B779CE79D45B12608 /* Pods */ = {
@@ -199,20 +256,32 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-UserAnimationPractice/Pods-UserAnimationPractice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxGesture/RxGesture.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxGesture.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,8 +296,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE4838F81FE8F2B100F27A91 /* TMBaseViewModel.swift in Sources */,
+				AE4838F91FE8F2B100F27A91 /* TMJSONAble.swift in Sources */,
+				AE4838FE1FE8F36C00F27A91 /* TTmamaUser.swift in Sources */,
+				AE4838F31FE8F2B100F27A91 /* MoyaTTmamaAPIService.swift in Sources */,
+				AE4838FB1FE8F2B100F27A91 /* TMProgressHUD.swift in Sources */,
+				AE4838F51FE8F2B100F27A91 /* RxSwift+TM_Response.swift in Sources */,
 				AE4838C01FE8B55500F27A91 /* ViewController.swift in Sources */,
+				AE4838F61FE8F2B100F27A91 /* TM_Response.swift in Sources */,
+				AE4838FA1FE8F2B100F27A91 /* TMResponse+SwiftyJSONMapper.swift in Sources */,
 				AE4838BE1FE8B55500F27A91 /* AppDelegate.swift in Sources */,
+				AE4838F71FE8F2B100F27A91 /* TMApiUnit.swift in Sources */,
+				AE4838F41FE8F2B100F27A91 /* Response+MapTMResponse.swift in Sources */,
+				AE4838FC1FE8F2B100F27A91 /* WangAPIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

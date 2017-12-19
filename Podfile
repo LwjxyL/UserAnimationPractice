@@ -2,16 +2,35 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 platform :ios, '9.0'
 
-
 target 'UserAnimationPractice' do
-
-pod 'RxSwift', '~> 3.0'
-pod 'RxCocoa', '~> 3.0'
-pod 'RxDataSources', '~> 1.0'
-pod 'RxGesture'
-pod 'SwiftyJSON'
-pod 'Kingfisher'
-
-
-
+    
+    # Rx
+    pod 'RxSwift', '~> 3.0'
+    pod 'RxCocoa', '~> 3.0'
+    pod 'RxDataSources', '~> 1.0'
+    pod 'RxGesture'
+    
+    # UI
+    pod 'SnapKit', '~> 3.0'
+    pod 'Kingfisher', '~> 3.0’
+    pod 'MBProgressHUD', '~> 1.0.0'
+    pod 'MJRefresh'
+    
+    # Network
+    pod 'Alamofire', '~> 4.0'
+    pod 'Moya', '8.0.0-beta.4’
+    pod 'Moya/RxSwift'
+    
+    # Tool
+    pod 'SwiftyJSON'
+    
 end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['SWIFT_VERSION'] = '3.0'
+        end
+    end
+end
+
