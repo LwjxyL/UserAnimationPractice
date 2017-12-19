@@ -15,8 +15,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        makeWindow()
         return true
+    }
+    
+    fileprivate func makeWindow() {
+        window = UIWindow()
+        window?.frame = UIScreen.main.bounds
+        window?.makeKeyAndVisible()
+        let versionCache = UserDefaults.standard.object(forKey: "VersionCache") as? String
+        let version = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String
+        if versionCache == version {
+            
+        } else {
+            UserDefaults.standard.set(version, forKey: "VersionCache")
+            
+        }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
