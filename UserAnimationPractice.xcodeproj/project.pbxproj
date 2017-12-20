@@ -7,46 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE4838BE1FE8B55500F27A91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838BD1FE8B55500F27A91 /* AppDelegate.swift */; };
-		AE4838C01FE8B55500F27A91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838BF1FE8B55500F27A91 /* ViewController.swift */; };
-		AE4838C31FE8B55500F27A91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4838C11FE8B55500F27A91 /* Main.storyboard */; };
-		AE4838C51FE8B55500F27A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4838C41FE8B55500F27A91 /* Assets.xcassets */; };
-		AE4838C81FE8B55500F27A91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4838C61FE8B55500F27A91 /* LaunchScreen.storyboard */; };
-		AE4838F31FE8F2B100F27A91 /* MoyaTTmamaAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838E71FE8F2B100F27A91 /* MoyaTTmamaAPIService.swift */; };
-		AE4838F41FE8F2B100F27A91 /* Response+MapTMResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838E91FE8F2B100F27A91 /* Response+MapTMResponse.swift */; };
-		AE4838F51FE8F2B100F27A91 /* RxSwift+TM_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838EA1FE8F2B100F27A91 /* RxSwift+TM_Response.swift */; };
-		AE4838F61FE8F2B100F27A91 /* TM_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838EB1FE8F2B100F27A91 /* TM_Response.swift */; };
-		AE4838F71FE8F2B100F27A91 /* TMApiUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838EC1FE8F2B100F27A91 /* TMApiUnit.swift */; };
-		AE4838F81FE8F2B100F27A91 /* TMBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838ED1FE8F2B100F27A91 /* TMBaseViewModel.swift */; };
-		AE4838F91FE8F2B100F27A91 /* TMJSONAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838EF1FE8F2B100F27A91 /* TMJSONAble.swift */; };
-		AE4838FA1FE8F2B100F27A91 /* TMResponse+SwiftyJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838F01FE8F2B100F27A91 /* TMResponse+SwiftyJSONMapper.swift */; };
-		AE4838FB1FE8F2B100F27A91 /* TMProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838F11FE8F2B100F27A91 /* TMProgressHUD.swift */; };
-		AE4838FC1FE8F2B100F27A91 /* WangAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838F21FE8F2B100F27A91 /* WangAPIService.swift */; };
-		AE4838FE1FE8F36C00F27A91 /* TTmamaUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4838FD1FE8F36C00F27A91 /* TTmamaUser.swift */; };
+		AE4787241FEA4921005CF1DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE47870E1FEA4921005CF1DF /* AppDelegate.swift */; };
+		AE4787271FEA4921005CF1DF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4787121FEA4921005CF1DF /* MainViewController.swift */; };
+		AE4787281FEA4921005CF1DF /* MoyaTTmamaAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4787141FEA4921005CF1DF /* MoyaTTmamaAPIService.swift */; };
+		AE4787291FEA4921005CF1DF /* Response+MapTMResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4787161FEA4921005CF1DF /* Response+MapTMResponse.swift */; };
+		AE47872A1FEA4921005CF1DF /* RxSwift+TM_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4787171FEA4921005CF1DF /* RxSwift+TM_Response.swift */; };
+		AE47872B1FEA4921005CF1DF /* TM_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4787181FEA4921005CF1DF /* TM_Response.swift */; };
+		AE47872C1FEA4921005CF1DF /* TMApiUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4787191FEA4921005CF1DF /* TMApiUnit.swift */; };
+		AE47872D1FEA4921005CF1DF /* TMBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE47871A1FEA4921005CF1DF /* TMBaseViewModel.swift */; };
+		AE47872E1FEA4921005CF1DF /* TMJSONAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE47871C1FEA4921005CF1DF /* TMJSONAble.swift */; };
+		AE47872F1FEA4921005CF1DF /* TMResponse+SwiftyJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE47871D1FEA4921005CF1DF /* TMResponse+SwiftyJSONMapper.swift */; };
+		AE4787301FEA4922005CF1DF /* TMProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE47871E1FEA4921005CF1DF /* TMProgressHUD.swift */; };
+		AE4787311FEA4922005CF1DF /* TTmamaUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE47871F1FEA4921005CF1DF /* TTmamaUser.swift */; };
+		AE4787321FEA4922005CF1DF /* WangAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4787201FEA4921005CF1DF /* WangAPIService.swift */; };
+		AE4787331FEA4922005CF1DF /* qidong.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AE4787211FEA4921005CF1DF /* qidong.mp4 */; };
+		AE4787371FEA49D4005CF1DF /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4787361FEA49D4005CF1DF /* MovieViewController.swift */; };
+		AE4787421FEA4AD2005CF1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4787401FEA4AD1005CF1DF /* Assets.xcassets */; };
+		AE4787431FEA4AD2005CF1DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE4787411FEA4AD1005CF1DF /* Info.plist */; };
+		AE4787451FEA547A005CF1DF /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4787441FEA547A005CF1DF /* BaseNavigationController.swift */; };
 		F063E0F74F0B4DBC79F2A15F /* Pods_UserAnimationPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3E32466303C3CEF3475211 /* Pods_UserAnimationPractice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		762A8337D6A88AED728ACB80 /* Pods-UserAnimationPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserAnimationPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserAnimationPractice/Pods-UserAnimationPractice.release.xcconfig"; sourceTree = "<group>"; };
 		8A3E32466303C3CEF3475211 /* Pods_UserAnimationPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserAnimationPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE47870E1FEA4921005CF1DF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE4787121FEA4921005CF1DF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AE4787141FEA4921005CF1DF /* MoyaTTmamaAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaTTmamaAPIService.swift; sourceTree = "<group>"; };
+		AE4787161FEA4921005CF1DF /* Response+MapTMResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+MapTMResponse.swift"; sourceTree = "<group>"; };
+		AE4787171FEA4921005CF1DF /* RxSwift+TM_Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxSwift+TM_Response.swift"; sourceTree = "<group>"; };
+		AE4787181FEA4921005CF1DF /* TM_Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TM_Response.swift; sourceTree = "<group>"; };
+		AE4787191FEA4921005CF1DF /* TMApiUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMApiUnit.swift; sourceTree = "<group>"; };
+		AE47871A1FEA4921005CF1DF /* TMBaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMBaseViewModel.swift; sourceTree = "<group>"; };
+		AE47871C1FEA4921005CF1DF /* TMJSONAble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMJSONAble.swift; sourceTree = "<group>"; };
+		AE47871D1FEA4921005CF1DF /* TMResponse+SwiftyJSONMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TMResponse+SwiftyJSONMapper.swift"; sourceTree = "<group>"; };
+		AE47871E1FEA4921005CF1DF /* TMProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMProgressHUD.swift; sourceTree = "<group>"; };
+		AE47871F1FEA4921005CF1DF /* TTmamaUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTmamaUser.swift; sourceTree = "<group>"; };
+		AE4787201FEA4921005CF1DF /* WangAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WangAPIService.swift; sourceTree = "<group>"; };
+		AE4787211FEA4921005CF1DF /* qidong.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qidong.mp4; sourceTree = "<group>"; };
+		AE4787361FEA49D4005CF1DF /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		AE4787401FEA4AD1005CF1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE4787411FEA4AD1005CF1DF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4787441FEA547A005CF1DF /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseNavigationController.swift; path = ../../../../Documents/BaseNavigationController.swift; sourceTree = "<group>"; };
 		AE4838BA1FE8B55500F27A91 /* UserAnimationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserAnimationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE4838BD1FE8B55500F27A91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE4838BF1FE8B55500F27A91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AE4838C21FE8B55500F27A91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE4838C41FE8B55500F27A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE4838C71FE8B55500F27A91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AE4838C91FE8B55500F27A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE4838E71FE8F2B100F27A91 /* MoyaTTmamaAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaTTmamaAPIService.swift; sourceTree = "<group>"; };
-		AE4838E91FE8F2B100F27A91 /* Response+MapTMResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+MapTMResponse.swift"; sourceTree = "<group>"; };
-		AE4838EA1FE8F2B100F27A91 /* RxSwift+TM_Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxSwift+TM_Response.swift"; sourceTree = "<group>"; };
-		AE4838EB1FE8F2B100F27A91 /* TM_Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TM_Response.swift; sourceTree = "<group>"; };
-		AE4838EC1FE8F2B100F27A91 /* TMApiUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMApiUnit.swift; sourceTree = "<group>"; };
-		AE4838ED1FE8F2B100F27A91 /* TMBaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMBaseViewModel.swift; sourceTree = "<group>"; };
-		AE4838EF1FE8F2B100F27A91 /* TMJSONAble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMJSONAble.swift; sourceTree = "<group>"; };
-		AE4838F01FE8F2B100F27A91 /* TMResponse+SwiftyJSONMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TMResponse+SwiftyJSONMapper.swift"; sourceTree = "<group>"; };
-		AE4838F11FE8F2B100F27A91 /* TMProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMProgressHUD.swift; sourceTree = "<group>"; };
-		AE4838F21FE8F2B100F27A91 /* WangAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WangAPIService.swift; sourceTree = "<group>"; };
-		AE4838FD1FE8F36C00F27A91 /* TTmamaUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTmamaUser.swift; sourceTree = "<group>"; };
 		FC71728377DE8615A2D8994E /* Pods-UserAnimationPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserAnimationPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserAnimationPractice/Pods-UserAnimationPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,10 +73,75 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AE47870D1FEA4921005CF1DF /* UserAnimationPractice */ = {
+			isa = PBXGroup;
+			children = (
+				AE4787131FEA4921005CF1DF /* Network */,
+				AE4787461FEA58ED005CF1DF /* Source */,
+				AE4787101FEA4921005CF1DF /* Base */,
+				AE47870E1FEA4921005CF1DF /* AppDelegate.swift */,
+				AE4787361FEA49D4005CF1DF /* MovieViewController.swift */,
+				AE4787121FEA4921005CF1DF /* MainViewController.swift */,
+				AE4787411FEA4AD1005CF1DF /* Info.plist */,
+			);
+			path = UserAnimationPractice;
+			sourceTree = "<group>";
+		};
+		AE4787101FEA4921005CF1DF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AE4787441FEA547A005CF1DF /* BaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AE4787131FEA4921005CF1DF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AE4787141FEA4921005CF1DF /* MoyaTTmamaAPIService.swift */,
+				AE4787151FEA4921005CF1DF /* TM_Response */,
+				AE4787191FEA4921005CF1DF /* TMApiUnit.swift */,
+				AE47871A1FEA4921005CF1DF /* TMBaseViewModel.swift */,
+				AE47871B1FEA4921005CF1DF /* TMJSONAble */,
+				AE47871E1FEA4921005CF1DF /* TMProgressHUD.swift */,
+				AE47871F1FEA4921005CF1DF /* TTmamaUser.swift */,
+				AE4787201FEA4921005CF1DF /* WangAPIService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AE4787151FEA4921005CF1DF /* TM_Response */ = {
+			isa = PBXGroup;
+			children = (
+				AE4787161FEA4921005CF1DF /* Response+MapTMResponse.swift */,
+				AE4787171FEA4921005CF1DF /* RxSwift+TM_Response.swift */,
+				AE4787181FEA4921005CF1DF /* TM_Response.swift */,
+			);
+			path = TM_Response;
+			sourceTree = "<group>";
+		};
+		AE47871B1FEA4921005CF1DF /* TMJSONAble */ = {
+			isa = PBXGroup;
+			children = (
+				AE47871C1FEA4921005CF1DF /* TMJSONAble.swift */,
+				AE47871D1FEA4921005CF1DF /* TMResponse+SwiftyJSONMapper.swift */,
+			);
+			path = TMJSONAble;
+			sourceTree = "<group>";
+		};
+		AE4787461FEA58ED005CF1DF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AE4787211FEA4921005CF1DF /* qidong.mp4 */,
+				AE4787401FEA4AD1005CF1DF /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		AE4838B11FE8B55500F27A91 = {
 			isa = PBXGroup;
 			children = (
-				AE4838BC1FE8B55500F27A91 /* UserAnimationPractice */,
+				AE47870D1FEA4921005CF1DF /* UserAnimationPractice */,
 				AE4838BB1FE8B55500F27A91 /* Products */,
 				C307C80B779CE79D45B12608 /* Pods */,
 				4954F7FE11C83A1BD03CA6C1 /* Frameworks */,
@@ -86,54 +154,6 @@
 				AE4838BA1FE8B55500F27A91 /* UserAnimationPractice.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AE4838BC1FE8B55500F27A91 /* UserAnimationPractice */ = {
-			isa = PBXGroup;
-			children = (
-				AE4838E61FE8F2B100F27A91 /* Network */,
-				AE4838BD1FE8B55500F27A91 /* AppDelegate.swift */,
-				AE4838BF1FE8B55500F27A91 /* ViewController.swift */,
-				AE4838C11FE8B55500F27A91 /* Main.storyboard */,
-				AE4838C41FE8B55500F27A91 /* Assets.xcassets */,
-				AE4838C61FE8B55500F27A91 /* LaunchScreen.storyboard */,
-				AE4838C91FE8B55500F27A91 /* Info.plist */,
-			);
-			path = UserAnimationPractice;
-			sourceTree = "<group>";
-		};
-		AE4838E61FE8F2B100F27A91 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				AE4838E71FE8F2B100F27A91 /* MoyaTTmamaAPIService.swift */,
-				AE4838E81FE8F2B100F27A91 /* TM_Response */,
-				AE4838EC1FE8F2B100F27A91 /* TMApiUnit.swift */,
-				AE4838ED1FE8F2B100F27A91 /* TMBaseViewModel.swift */,
-				AE4838EE1FE8F2B100F27A91 /* TMJSONAble */,
-				AE4838F11FE8F2B100F27A91 /* TMProgressHUD.swift */,
-				AE4838F21FE8F2B100F27A91 /* WangAPIService.swift */,
-				AE4838FD1FE8F36C00F27A91 /* TTmamaUser.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		AE4838E81FE8F2B100F27A91 /* TM_Response */ = {
-			isa = PBXGroup;
-			children = (
-				AE4838E91FE8F2B100F27A91 /* Response+MapTMResponse.swift */,
-				AE4838EA1FE8F2B100F27A91 /* RxSwift+TM_Response.swift */,
-				AE4838EB1FE8F2B100F27A91 /* TM_Response.swift */,
-			);
-			path = TM_Response;
-			sourceTree = "<group>";
-		};
-		AE4838EE1FE8F2B100F27A91 /* TMJSONAble */ = {
-			isa = PBXGroup;
-			children = (
-				AE4838EF1FE8F2B100F27A91 /* TMJSONAble.swift */,
-				AE4838F01FE8F2B100F27A91 /* TMResponse+SwiftyJSONMapper.swift */,
-			);
-			path = TMJSONAble;
 			sourceTree = "<group>";
 		};
 		C307C80B779CE79D45B12608 /* Pods */ = {
@@ -207,9 +227,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE4838C81FE8B55500F27A91 /* LaunchScreen.storyboard in Resources */,
-				AE4838C51FE8B55500F27A91 /* Assets.xcassets in Resources */,
-				AE4838C31FE8B55500F27A91 /* Main.storyboard in Resources */,
+				AE4787421FEA4AD2005CF1DF /* Assets.xcassets in Resources */,
+				AE4787331FEA4922005CF1DF /* qidong.mp4 in Resources */,
+				AE4787431FEA4AD2005CF1DF /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,42 +316,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE4838F81FE8F2B100F27A91 /* TMBaseViewModel.swift in Sources */,
-				AE4838F91FE8F2B100F27A91 /* TMJSONAble.swift in Sources */,
-				AE4838FE1FE8F36C00F27A91 /* TTmamaUser.swift in Sources */,
-				AE4838F31FE8F2B100F27A91 /* MoyaTTmamaAPIService.swift in Sources */,
-				AE4838FB1FE8F2B100F27A91 /* TMProgressHUD.swift in Sources */,
-				AE4838F51FE8F2B100F27A91 /* RxSwift+TM_Response.swift in Sources */,
-				AE4838C01FE8B55500F27A91 /* ViewController.swift in Sources */,
-				AE4838F61FE8F2B100F27A91 /* TM_Response.swift in Sources */,
-				AE4838FA1FE8F2B100F27A91 /* TMResponse+SwiftyJSONMapper.swift in Sources */,
-				AE4838BE1FE8B55500F27A91 /* AppDelegate.swift in Sources */,
-				AE4838F71FE8F2B100F27A91 /* TMApiUnit.swift in Sources */,
-				AE4838F41FE8F2B100F27A91 /* Response+MapTMResponse.swift in Sources */,
-				AE4838FC1FE8F2B100F27A91 /* WangAPIService.swift in Sources */,
+				AE47872D1FEA4921005CF1DF /* TMBaseViewModel.swift in Sources */,
+				AE47872E1FEA4921005CF1DF /* TMJSONAble.swift in Sources */,
+				AE4787371FEA49D4005CF1DF /* MovieViewController.swift in Sources */,
+				AE4787281FEA4921005CF1DF /* MoyaTTmamaAPIService.swift in Sources */,
+				AE4787301FEA4922005CF1DF /* TMProgressHUD.swift in Sources */,
+				AE47872A1FEA4921005CF1DF /* RxSwift+TM_Response.swift in Sources */,
+				AE4787241FEA4921005CF1DF /* AppDelegate.swift in Sources */,
+				AE47872B1FEA4921005CF1DF /* TM_Response.swift in Sources */,
+				AE4787451FEA547A005CF1DF /* BaseNavigationController.swift in Sources */,
+				AE4787321FEA4922005CF1DF /* WangAPIService.swift in Sources */,
+				AE47872F1FEA4921005CF1DF /* TMResponse+SwiftyJSONMapper.swift in Sources */,
+				AE4787271FEA4921005CF1DF /* MainViewController.swift in Sources */,
+				AE47872C1FEA4921005CF1DF /* TMApiUnit.swift in Sources */,
+				AE4787311FEA4922005CF1DF /* TTmamaUser.swift in Sources */,
+				AE4787291FEA4921005CF1DF /* Response+MapTMResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		AE4838C11FE8B55500F27A91 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE4838C21FE8B55500F27A91 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AE4838C61FE8B55500F27A91 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE4838C71FE8B55500F27A91 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AE4838CA1FE8B55500F27A91 /* Debug */ = {

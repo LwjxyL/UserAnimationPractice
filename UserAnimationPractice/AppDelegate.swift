@@ -20,17 +20,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     fileprivate func makeWindow() {
-        window = UIWindow()
-        window?.frame = UIScreen.main.bounds
-        window?.makeKeyAndVisible()
+        self.window = UIWindow.init(frame: UIScreen.main.bounds)
         let versionCache = UserDefaults.standard.object(forKey: "VersionCache") as? String
         let version = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String
         if versionCache == version {
-            
+            let vc = MainViewController()
+            let navVc = BaseNavigationController.init(rootViewController: vc)
+            window?.rootViewController = navVc
         } else {
+            let vc = MovieViewController()
+            if let path = Bundle.main.path(forResource: "qidong.mp4", ofType: nil){
+                vc.movieUrl = URL.init(fileURLWithPath: path)
+            }
+            window?.rootViewController = vc
+            // 初次开启项目记录版本号 如想每次都有启动动画 请注释
             UserDefaults.standard.set(version, forKey: "VersionCache")
-            
         }
+        self.window?.makeKeyAndVisible()
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
