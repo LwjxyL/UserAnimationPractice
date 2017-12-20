@@ -24,7 +24,7 @@
 		AE4787371FEA49D4005CF1DF /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4787361FEA49D4005CF1DF /* MovieViewController.swift */; };
 		AE4787421FEA4AD2005CF1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4787401FEA4AD1005CF1DF /* Assets.xcassets */; };
 		AE4787431FEA4AD2005CF1DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE4787411FEA4AD1005CF1DF /* Info.plist */; };
-		AE4787451FEA547A005CF1DF /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4787441FEA547A005CF1DF /* BaseNavigationController.swift */; };
+		AE4787491FEA5EF6005CF1DF /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4787481FEA5EF6005CF1DF /* BaseNavigationController.swift */; };
 		F063E0F74F0B4DBC79F2A15F /* Pods_UserAnimationPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3E32466303C3CEF3475211 /* Pods_UserAnimationPractice.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +48,7 @@
 		AE4787361FEA49D4005CF1DF /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		AE4787401FEA4AD1005CF1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE4787411FEA4AD1005CF1DF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE4787441FEA547A005CF1DF /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseNavigationController.swift; path = ../../../../Documents/BaseNavigationController.swift; sourceTree = "<group>"; };
+		AE4787481FEA5EF6005CF1DF /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		AE4838BA1FE8B55500F27A91 /* UserAnimationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserAnimationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC71728377DE8615A2D8994E /* Pods-UserAnimationPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserAnimationPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserAnimationPractice/Pods-UserAnimationPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,23 +76,15 @@
 		AE47870D1FEA4921005CF1DF /* UserAnimationPractice */ = {
 			isa = PBXGroup;
 			children = (
+				AE4787471FEA5EF6005CF1DF /* Base */,
 				AE4787131FEA4921005CF1DF /* Network */,
 				AE4787461FEA58ED005CF1DF /* Source */,
-				AE4787101FEA4921005CF1DF /* Base */,
 				AE47870E1FEA4921005CF1DF /* AppDelegate.swift */,
 				AE4787361FEA49D4005CF1DF /* MovieViewController.swift */,
 				AE4787121FEA4921005CF1DF /* MainViewController.swift */,
 				AE4787411FEA4AD1005CF1DF /* Info.plist */,
 			);
 			path = UserAnimationPractice;
-			sourceTree = "<group>";
-		};
-		AE4787101FEA4921005CF1DF /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				AE4787441FEA547A005CF1DF /* BaseNavigationController.swift */,
-			);
-			path = Base;
 			sourceTree = "<group>";
 		};
 		AE4787131FEA4921005CF1DF /* Network */ = {
@@ -136,6 +128,14 @@
 				AE4787401FEA4AD1005CF1DF /* Assets.xcassets */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		AE4787471FEA5EF6005CF1DF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AE4787481FEA5EF6005CF1DF /* BaseNavigationController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		AE4838B11FE8B55500F27A91 = {
@@ -324,7 +324,7 @@
 				AE47872A1FEA4921005CF1DF /* RxSwift+TM_Response.swift in Sources */,
 				AE4787241FEA4921005CF1DF /* AppDelegate.swift in Sources */,
 				AE47872B1FEA4921005CF1DF /* TM_Response.swift in Sources */,
-				AE4787451FEA547A005CF1DF /* BaseNavigationController.swift in Sources */,
+				AE4787491FEA5EF6005CF1DF /* BaseNavigationController.swift in Sources */,
 				AE4787321FEA4922005CF1DF /* WangAPIService.swift in Sources */,
 				AE47872F1FEA4921005CF1DF /* TMResponse+SwiftyJSONMapper.swift in Sources */,
 				AE4787271FEA4921005CF1DF /* MainViewController.swift in Sources */,
