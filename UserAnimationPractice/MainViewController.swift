@@ -14,18 +14,16 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
         self.title = "首页"
-        let item = UIBarButtonItem.item(imageName: "left-arrow", title: nil, target: self, action: #selector(MainViewController.goBack))
-        self.navigationItem.rightBarButtonItem = item
-//        let leftItem = UIBarButtonItem.ite
+        let item = UIBarButtonItem.item(imageName: "left-arrow", title: nil, action: #selector(MainViewController.goBack), target: self)
+        self.navigationItem.leftBarButtonItem = item
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-    
     @objc func goBack(){
         self.navigationController?.popViewController(animated: true)
-        print("dsdsds")
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
     }
 }
 
