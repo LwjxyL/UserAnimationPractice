@@ -26,6 +26,9 @@
 		AE4787431FEA4AD2005CF1DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE4787411FEA4AD1005CF1DF /* Info.plist */; };
 		AE5FCED71FF4EA1B00BCCE50 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5FCED61FF4EA1B00BCCE50 /* UIBarButtonItem+Extension.swift */; };
 		AE629F9A1FFB1DAA00CC4DAC /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE629F991FFB1DAA00CC4DAC /* BaseNavigationController.swift */; };
+		AE629F9C1FFB5AAC00CC4DAC /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE629F9B1FFB5AAC00CC4DAC /* LeftViewController.swift */; };
+		AE629FA01FFB5E9400CC4DAC /* LeftCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE629F9F1FFB5E9400CC4DAC /* LeftCell.xib */; };
+		AE629FA41FFB654E00CC4DAC /* LeftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE629FA31FFB654E00CC4DAC /* LeftCell.swift */; };
 		F063E0F74F0B4DBC79F2A15F /* Pods_UserAnimationPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3E32466303C3CEF3475211 /* Pods_UserAnimationPractice.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +55,9 @@
 		AE4838BA1FE8B55500F27A91 /* UserAnimationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserAnimationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5FCED61FF4EA1B00BCCE50 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		AE629F991FFB1DAA00CC4DAC /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		AE629F9B1FFB5AAC00CC4DAC /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		AE629F9F1FFB5E9400CC4DAC /* LeftCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftCell.xib; sourceTree = "<group>"; };
+		AE629FA31FFB654E00CC4DAC /* LeftCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftCell.swift; sourceTree = "<group>"; };
 		FC71728377DE8615A2D8994E /* Pods-UserAnimationPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserAnimationPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserAnimationPractice/Pods-UserAnimationPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +91,9 @@
 				AE47870E1FEA4921005CF1DF /* AppDelegate.swift */,
 				AE4787361FEA49D4005CF1DF /* MovieViewController.swift */,
 				AE4787121FEA4921005CF1DF /* MainViewController.swift */,
+				AE629F9B1FFB5AAC00CC4DAC /* LeftViewController.swift */,
+				AE629FA31FFB654E00CC4DAC /* LeftCell.swift */,
+				AE629F9F1FFB5E9400CC4DAC /* LeftCell.xib */,
 				AE4787411FEA4AD1005CF1DF /* Info.plist */,
 			);
 			path = UserAnimationPractice;
@@ -238,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE629FA01FFB5E9400CC4DAC /* LeftCell.xib in Resources */,
 				AE4787421FEA4AD2005CF1DF /* Assets.xcassets in Resources */,
 				AE4787331FEA4922005CF1DF /* qidong.mp4 in Resources */,
 				AE4787431FEA4AD2005CF1DF /* Info.plist in Resources */,
@@ -327,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE629FA41FFB654E00CC4DAC /* LeftCell.swift in Sources */,
 				AE47872D1FEA4921005CF1DF /* TMBaseViewModel.swift in Sources */,
 				AE47872E1FEA4921005CF1DF /* TMJSONAble.swift in Sources */,
 				AE4787371FEA49D4005CF1DF /* MovieViewController.swift in Sources */,
@@ -337,6 +348,7 @@
 				AE5FCED71FF4EA1B00BCCE50 /* UIBarButtonItem+Extension.swift in Sources */,
 				AE629F9A1FFB1DAA00CC4DAC /* BaseNavigationController.swift in Sources */,
 				AE47872B1FEA4921005CF1DF /* TM_Response.swift in Sources */,
+				AE629F9C1FFB5AAC00CC4DAC /* LeftViewController.swift in Sources */,
 				AE4787321FEA4922005CF1DF /* WangAPIService.swift in Sources */,
 				AE47872F1FEA4921005CF1DF /* TMResponse+SwiftyJSONMapper.swift in Sources */,
 				AE4787271FEA4921005CF1DF /* MainViewController.swift in Sources */,

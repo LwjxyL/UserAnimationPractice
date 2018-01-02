@@ -29,11 +29,11 @@ extension UIBarButtonItem {
             button.setImage(UIImage.init(named: "\(imgName)_selector"), for: .selected)
         }
         
-        if let _ = title {
-            button.sizeToFit()
-        } else {
-            button.frame.size = CGSize(width: 30, height: 30)
-        }
+//        if let _ = title {
+//            button.sizeToFit()
+//        } else {
+//            button.frame.size = CGSize(width: 10, height: 10)
+//        }
         
         return UIBarButtonItem(customView: button)
         

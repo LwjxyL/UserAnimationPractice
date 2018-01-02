@@ -14,12 +14,13 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
         self.title = "首页"
-        let item = UIBarButtonItem.item(imageName: "left-arrow", title: nil, action: #selector(MainViewController.goBack), target: self)
+        let item = UIBarButtonItem.item(imageName: "left_item", title: nil, action: #selector(MainViewController.goBack), target: self)
         self.navigationItem.leftBarButtonItem = item
     }
 
     @objc func goBack(){
-        self.navigationController?.popViewController(animated: true)
+        let vc = LeftViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     override func didReceiveMemoryWarning() {
