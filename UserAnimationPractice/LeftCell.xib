@@ -13,30 +13,29 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" restorationIdentifier="LeftCell" id="iN0-l3-epB" customClass="LeftCell" customModule="UserAnimationPractice" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="261" height="90"/>
+            <rect key="frame" x="0.0" y="0.0" width="101" height="113"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="convert_icon" translatesAutoresizingMaskIntoConstraints="NO" id="pwC-W6-cl1">
-                    <rect key="frame" x="109" y="10" width="43" height="43"/>
+                    <rect key="frame" x="29" y="21" width="43" height="43"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="43" id="YaS-aD-gqx"/>
                         <constraint firstAttribute="height" constant="43" id="a6F-Wf-GBq"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="甜豆兑换" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dLQ-Rb-BOy">
-                    <rect key="frame" x="0.0" y="63" width="261" height="17"/>
+                    <rect key="frame" x="0.0" y="76" width="101" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
             <constraints>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="dLQ-Rb-BOy" secondAttribute="bottom" constant="10" id="1VU-42-gpd"/>
-                <constraint firstItem="dLQ-Rb-BOy" firstAttribute="top" secondItem="pwC-W6-cl1" secondAttribute="bottom" constant="10" id="3ex-er-U0S"/>
+                <constraint firstItem="dLQ-Rb-BOy" firstAttribute="top" secondItem="pwC-W6-cl1" secondAttribute="bottom" constant="12" id="3ex-er-U0S"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="dLQ-Rb-BOy" secondAttribute="trailing" id="532-2C-A9V"/>
+                <constraint firstItem="pwC-W6-cl1" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-14" id="BFB-Jj-tkh"/>
                 <constraint firstItem="pwC-W6-cl1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="R1A-T3-Syn"/>
                 <constraint firstItem="dLQ-Rb-BOy" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="S3L-yO-xok"/>
-                <constraint firstItem="pwC-W6-cl1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="cDu-fv-LOL"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
@@ -44,7 +43,7 @@
                 <outlet property="img" destination="pwC-W6-cl1" id="Vuu-Du-RVO"/>
                 <outlet property="lab" destination="dLQ-Rb-BOy" id="qpX-Fe-W1P"/>
             </connections>
-            <point key="canvasLocation" x="-119.5" y="-525"/>
+            <point key="canvasLocation" x="-199.5" y="-513.5"/>
         </view>
     </objects>
     <resources>

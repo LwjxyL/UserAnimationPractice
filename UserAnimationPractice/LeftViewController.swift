@@ -23,24 +23,31 @@ class LeftViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.tableView = UITableView.init(frame: UIScreen.main.bounds, style: .plain)
+        self.tableView?.frame.size.width = 100
 //        self.tableView?.separatorStyle = .none // 分割线
-        self.tableView?.register(UINib(nibName:"LeftCell",bundle: nil), forCellReuseIdentifier: "LeftCell")
+        self.tableView?.register(UINib(nibName:"LeftCell",bundle: nil),forCellReuseIdentifier: "LeftCell")
         self.tableView?.dataSource = self
         self.tableView?.delegate = self
         self.tableView?.separatorInset = UIEdgeInsetsMake(0, 0, 0, 0)
-        self.tableView?.rowHeight = 90
+        self.tableView?.rowHeight = (UIScreen.main.bounds.size.height-64) / 5
+        self.tableView?.bounces = false // 取消弹簧效果
         self.view.addSubview(tableView!)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    override func didReceiveMemoryWarning() { super.didReceiveMemoryWarning() }
 }
 
 extension LeftViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 0
+    }
+    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 0
+    }
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -51,6 +58,7 @@ extension LeftViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "LeftCell", for: indexPath) as! LeftCell
+        cell.selectionStyle = .none // 取消cell点击效果
         cell.img.image = UIImage.init(named: imageArray[indexPath.row])
         cell.lab.text = strArray[indexPath.row]
         return cell

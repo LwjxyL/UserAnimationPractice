@@ -29,6 +29,7 @@
 		AE629F9C1FFB5AAC00CC4DAC /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE629F9B1FFB5AAC00CC4DAC /* LeftViewController.swift */; };
 		AE629FA01FFB5E9400CC4DAC /* LeftCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE629F9F1FFB5E9400CC4DAC /* LeftCell.xib */; };
 		AE629FA41FFB654E00CC4DAC /* LeftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE629FA31FFB654E00CC4DAC /* LeftCell.swift */; };
+		AEE153EA1FFC89980042FA88 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE153E91FFC89980042FA88 /* DrawerViewController.swift */; };
 		F063E0F74F0B4DBC79F2A15F /* Pods_UserAnimationPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3E32466303C3CEF3475211 /* Pods_UserAnimationPractice.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		AE629F9B1FFB5AAC00CC4DAC /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		AE629F9F1FFB5E9400CC4DAC /* LeftCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftCell.xib; sourceTree = "<group>"; };
 		AE629FA31FFB654E00CC4DAC /* LeftCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftCell.swift; sourceTree = "<group>"; };
+		AEE153E91FFC89980042FA88 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
 		FC71728377DE8615A2D8994E /* Pods-UserAnimationPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserAnimationPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserAnimationPractice/Pods-UserAnimationPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 				AE4787361FEA49D4005CF1DF /* MovieViewController.swift */,
 				AE4787121FEA4921005CF1DF /* MainViewController.swift */,
 				AE629F9B1FFB5AAC00CC4DAC /* LeftViewController.swift */,
+				AEE153E91FFC89980042FA88 /* DrawerViewController.swift */,
 				AE629FA31FFB654E00CC4DAC /* LeftCell.swift */,
 				AE629F9F1FFB5E9400CC4DAC /* LeftCell.xib */,
 				AE4787411FEA4AD1005CF1DF /* Info.plist */,
@@ -353,6 +356,7 @@
 				AE47872F1FEA4921005CF1DF /* TMResponse+SwiftyJSONMapper.swift in Sources */,
 				AE4787271FEA4921005CF1DF /* MainViewController.swift in Sources */,
 				AE47872C1FEA4921005CF1DF /* TMApiUnit.swift in Sources */,
+				AEE153EA1FFC89980042FA88 /* DrawerViewController.swift in Sources */,
 				AE4787311FEA4922005CF1DF /* TTmamaUser.swift in Sources */,
 				AE4787291FEA4921005CF1DF /* Response+MapTMResponse.swift in Sources */,
 			);

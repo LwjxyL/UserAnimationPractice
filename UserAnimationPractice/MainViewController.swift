@@ -12,15 +12,22 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.white
-        self.title = "首页"
-        let item = UIBarButtonItem.item(imageName: "left_item", title: nil, action: #selector(MainViewController.goBack), target: self)
-        self.navigationItem.leftBarButtonItem = item
+        self.view.backgroundColor = UIColor.orange
+        
+//        self.title = "首页"
+//        let item = UIBarButtonItem.item(imageName: "left_item", title: nil, action: #selector(MainViewController.goBack), target: self)
+//        self.navigationItem.leftBarButtonItem = item
+//
+        let btn = UIButton()
+        
+        btn.frame = CGRect(x: 0, y: 0, width: 60, height: 60)
+        btn.setImage(UIImage.init(named: "left_item"), for: .normal)
+        self.view.addSubview(btn)
+        btn.addTarget(self, action: #selector(MainViewController.goBack), for: .touchUpInside)
     }
 
     @objc func goBack(){
-        let vc = LeftViewController()
-        self.navigationController?.pushViewController(vc, animated: true)
+        DrawerViewController.share.openDrawer(duration: 0.2)
     }
     
     override func didReceiveMemoryWarning() {

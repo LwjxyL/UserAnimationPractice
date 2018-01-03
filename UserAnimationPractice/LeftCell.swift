@@ -15,7 +15,7 @@ class LeftCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.backgroundColor = UIColor.init(red: 49/255, green: 49/255, blue: 49/255, alpha: 1)
+        self.backgroundColor = UIColor.init(red: 119/255, green: 119/255, blue: 119/255, alpha: 1)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

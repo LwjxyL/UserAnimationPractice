@@ -24,9 +24,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let versionCache = UserDefaults.standard.object(forKey: "VersionCache") as? String
         let version = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String
         if versionCache == version {
-            let vc = MainViewController()
-            let navVc = BaseNavigationController.init(rootViewController: vc)
-            window?.rootViewController = navVc
+//            let vc = MainViewController()
+//            let navVC = BaseNavigationController.init(rootViewController: vc)
+            let navVC =  DrawerViewController.drawerWithOpenViewController(leftVC: LeftViewController.init(), mainVC: MainViewController.init(), drawerMaxWidth: 100)
+            window?.rootViewController = navVC
         } else {
             let vc = MovieViewController()
             if let path = Bundle.main.path(forResource: "qidong.mp4", ofType: nil){
