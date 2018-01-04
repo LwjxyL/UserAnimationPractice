@@ -24,13 +24,14 @@ class LeftViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView = UITableView.init(frame: UIScreen.main.bounds, style: .plain)
+        self.tableView?.isScrollEnabled = false
         self.tableView?.frame.size.width = 100
 //        self.tableView?.separatorStyle = .none // 分割线
         self.tableView?.register(UINib(nibName:"LeftCell",bundle: nil),forCellReuseIdentifier: "LeftCell")
         self.tableView?.dataSource = self
         self.tableView?.delegate = self
         self.tableView?.separatorInset = UIEdgeInsetsMake(0, 0, 0, 0)
-        self.tableView?.rowHeight = (UIScreen.main.bounds.size.height-64) / 5
+        self.tableView?.rowHeight = UIScreen.main.bounds.size.height / 5
         self.tableView?.bounces = false // 取消弹簧效果
         self.view.addSubview(tableView!)
     }

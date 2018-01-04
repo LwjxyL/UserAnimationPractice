@@ -20,7 +20,7 @@ class MainViewController: UIViewController {
 //
         let btn = UIButton()
         
-        btn.frame = CGRect(x: 0, y: 0, width: 60, height: 60)
+        btn.frame = CGRect(x: 0, y: 10, width: 60, height: 60)
         btn.setImage(UIImage.init(named: "left_item"), for: .normal)
         self.view.addSubview(btn)
         btn.addTarget(self, action: #selector(MainViewController.goBack), for: .touchUpInside)

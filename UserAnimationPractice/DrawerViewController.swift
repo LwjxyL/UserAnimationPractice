@@ -18,10 +18,13 @@ class DrawerViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         setCoverButton()
+        
     }
 
     
+    //MARK: -  开启抽屉
     func openDrawer(duration:CGFloat) {
         UIView.animate(withDuration: TimeInterval(duration), delay: 0, options: .curveLinear, animations: {
             self.mainView?.view.transform = CGAffineTransform.init(translationX: self.maxWidth!, y: 0)
@@ -32,6 +35,7 @@ class DrawerViewController: UIViewController {
         }
     }
     
+    //MARK: - 添加右侧透明btn
     func setCoverButton (){
         guard self.coverButton != nil else {
             self.coverButton = UIButton.init()
@@ -41,19 +45,24 @@ class DrawerViewController: UIViewController {
         }
     }
 
-    
+    //MARK: - 关闭抽屉
     @objc func closeDrawer() {
-        print("关闭抽屉")
+        UIView.animate(withDuration: TimeInterval(0.2), delay: 0, options: .curveLinear, animations: {
+            self.leftView?.view.transform = CGAffineTransform.init(translationX: -self.maxWidth!, y: 0)
+            self.mainView?.view.transform = CGAffineTransform.identity
+        }) { (Bool) in
+            self.coverButton?.removeFromSuperview()
+            self.coverButton = nil
+        }
     }
     
+    //MARK: - 类方法 appDelegate初始化
     class func drawerWithOpenViewController(leftVC: LeftViewController, mainVC: MainViewController,drawerMaxWidth:CGFloat) -> DrawerViewController {
         
         let drawerVC = DrawerViewController.share
-        
         drawerVC.leftView = leftVC
         drawerVC.mainView = mainVC
         drawerVC.maxWidth = drawerMaxWidth
-        
         drawerVC.view.addSubview(leftVC.view)
         drawerVC.view.addSubview(mainVC.view)
         drawerVC.addChildViewController(leftVC)
