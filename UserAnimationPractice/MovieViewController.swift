@@ -44,7 +44,7 @@ class MovieViewController: UIViewController {
 //        let vc =  DrawerViewController.drawerWithOpenViewController(leftVC: LeftViewController.init(), mainVC: MainViewController.init(), drawerMaxWidth: 100)
         let vc = MainViewController()
         let navVc = BaseNavigationController.init(rootViewController: vc)
-        self.view.window?.rootViewController = vc
+        self.view.window?.rootViewController = navVc
     }
     
     override func didReceiveMemoryWarning() {

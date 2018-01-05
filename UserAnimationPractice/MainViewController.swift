@@ -53,11 +53,13 @@ class MainViewController: UIViewController {
         let tags = sender.tag
         switch tags {
         case 101:
-           DrawerViewController.share.openDrawer(duration: 0.2)
-        case 102:
+//           DrawerViewController.share.openDrawer(duration: 0.2)
             let vc = IDcardViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 102:
 //            let nav = BaseNavigationController.init(rootViewController: vc)
 //            self.view.window?.rootViewController = nav
+            let vc = IDcardViewController()
             self.navigationController?.pushViewController(vc, animated: true)
             print("dd")
         default:
