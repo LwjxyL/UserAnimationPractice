@@ -17,7 +17,7 @@ class IDcardViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "试例数据"
+        self.title = "示例数据"
         self.navigationItem.leftBarButtonItem = UIBarButtonItem.item(imageName: "left-arrow", title: nil, action: #selector(IDcardViewController.goBack), target: self)
         self.tableView = UITableView.init(frame: UIScreen.main.bounds)
         self.view.addSubview(self.tableView!)

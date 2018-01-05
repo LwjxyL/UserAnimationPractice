@@ -59,6 +59,7 @@ class MainViewController: UIViewController {
 //            let nav = BaseNavigationController.init(rootViewController: vc)
 //            self.view.window?.rootViewController = nav
             self.navigationController?.pushViewController(vc, animated: true)
+            print("dd")
         default:
             break
         }
