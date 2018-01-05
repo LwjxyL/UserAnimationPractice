@@ -24,9 +24,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let versionCache = UserDefaults.standard.object(forKey: "VersionCache") as? String
         let version = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String
         if versionCache == version {
-//            let vc = MainViewController()
-//            let navVC = BaseNavigationController.init(rootViewController: vc)
-            let navVC =  DrawerViewController.drawerWithOpenViewController(leftVC: LeftViewController.init(), mainVC: MainViewController.init(), drawerMaxWidth: 100)
+            let vc = MainViewController()
+            let navVC = BaseNavigationController.init(rootViewController: vc)
+            // 抽屉初始化，但是目前会跟nav冲突，待解决。
+//            let vc =  DrawerViewController.drawerWithOpenViewController(leftVC: LeftViewController.init(), mainVC: MainViewController.init(), drawerMaxWidth: 100)
             window?.rootViewController = navVC
         } else {
             let vc = MovieViewController()
@@ -35,7 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
             window?.rootViewController = vc
             // 初次开启项目记录版本号 如想每次都有启动动画 请注释
-            UserDefaults.standard.set(version, forKey: "VersionCache")
+//            UserDefaults.standard.set(version, forKey: "VersionCache")
         }
         self.window?.makeKeyAndVisible()
     }

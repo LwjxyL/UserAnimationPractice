@@ -28,37 +28,10 @@ extension Response {
                     if rsp == 200{
                         return TM_Response(state: .Success, resultJSON: js["data"], errorMsg: nil)
                     }else if rsp == 2019{
-                        TTmamaUser.shared.logout()
                         return TM_Response(state: .NeedLogin, resultJSON: nil, errorMsg: js["msg"].string)
                     }else{
                         return TM_Response(state: .RequestError, resultJSON: nil, errorMsg: js["msg"].string)
-//                        return TM_Response(state: .JsonTypeError, resultJSON: nil, errorMsg: js["msg"].string)
                     }
-                    ///注意： 静态接口调试阶段暂时关闭错误类型处理，后续需要重新梳理
-                    
-//                    if rsp == 200{
-//                        return TM_Response(state: .Success, resultJSON: js["data"], errorMsg: nil)
-////                    }else if let res = js["res"].string{
-////                        debugPrint(response?.url?.absoluteString as Any)
-////                        debugPrint(js)
-////                        if res == "version_error"{
-////                            return TM_Response.VersionErrorResponse
-////                        }else if res == "need_login"{
-////                            return TM_Response.NeedLoginErrorResponse
-////                        }else{
-////                            let msg = js["msg"].string
-////                            return TM_Response(state: .RequestError, resultJSON: nil, errorMsg: msg)
-////                        }
-////                    }else if js["msg"].string == "无效登录"{
-////                        return TM_Response.NeedLoginErrorResponse
-////                    }else if js["msg"].string == "password incorrect" || js["msg"].string == "user not exist"{
-////                        return TM_Response(state: .UnKnownError, resultJSON: nil, errorMsg: "用户名或密码错误，请检查后再试")
-////                    }else if js["msg"].string == "version is null"{
-////                        return TM_Response(state: .Success, resultJSON: js["data"], errorMsg: nil)
-//                    }else {
-//                        return TM_Response(state: .UnKnownError, resultJSON: nil, errorMsg: js["msg"].string)
-//                    }
-                    
                 }else {
                      return TM_Response(state: .RequestError, resultJSON: nil, errorMsg: js["msg"].string)
                 }

@@ -18,7 +18,6 @@
 		AE47872E1FEA4921005CF1DF /* TMJSONAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE47871C1FEA4921005CF1DF /* TMJSONAble.swift */; };
 		AE47872F1FEA4921005CF1DF /* TMResponse+SwiftyJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE47871D1FEA4921005CF1DF /* TMResponse+SwiftyJSONMapper.swift */; };
 		AE4787301FEA4922005CF1DF /* TMProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE47871E1FEA4921005CF1DF /* TMProgressHUD.swift */; };
-		AE4787311FEA4922005CF1DF /* TTmamaUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE47871F1FEA4921005CF1DF /* TTmamaUser.swift */; };
 		AE4787321FEA4922005CF1DF /* WangAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4787201FEA4921005CF1DF /* WangAPIService.swift */; };
 		AE4787331FEA4922005CF1DF /* qidong.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AE4787211FEA4921005CF1DF /* qidong.mp4 */; };
 		AE4787371FEA49D4005CF1DF /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4787361FEA49D4005CF1DF /* MovieViewController.swift */; };
@@ -29,6 +28,10 @@
 		AE629F9C1FFB5AAC00CC4DAC /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE629F9B1FFB5AAC00CC4DAC /* LeftViewController.swift */; };
 		AE629FA01FFB5E9400CC4DAC /* LeftCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE629F9F1FFB5E9400CC4DAC /* LeftCell.xib */; };
 		AE629FA41FFB654E00CC4DAC /* LeftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE629FA31FFB654E00CC4DAC /* LeftCell.swift */; };
+		AE73544A1FFF51DE0038A919 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7354491FFF51DE0038A919 /* UIColor+Extension.swift */; };
+		AE73545C1FFF5CD00038A919 /* IDcardViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7354531FFF5CD00038A919 /* IDcardViewService.swift */; };
+		AE73545D1FFF5CD00038A919 /* IDcardListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7354551FFF5CD00038A919 /* IDcardListModel.swift */; };
+		AE73545F1FFF68B40038A919 /* IDcardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE73545E1FFF68B40038A919 /* IDcardViewController.swift */; };
 		AEE153EA1FFC89980042FA88 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE153E91FFC89980042FA88 /* DrawerViewController.swift */; };
 		F063E0F74F0B4DBC79F2A15F /* Pods_UserAnimationPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3E32466303C3CEF3475211 /* Pods_UserAnimationPractice.framework */; };
 /* End PBXBuildFile section */
@@ -47,7 +50,6 @@
 		AE47871C1FEA4921005CF1DF /* TMJSONAble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMJSONAble.swift; sourceTree = "<group>"; };
 		AE47871D1FEA4921005CF1DF /* TMResponse+SwiftyJSONMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TMResponse+SwiftyJSONMapper.swift"; sourceTree = "<group>"; };
 		AE47871E1FEA4921005CF1DF /* TMProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMProgressHUD.swift; sourceTree = "<group>"; };
-		AE47871F1FEA4921005CF1DF /* TTmamaUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTmamaUser.swift; sourceTree = "<group>"; };
 		AE4787201FEA4921005CF1DF /* WangAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WangAPIService.swift; sourceTree = "<group>"; };
 		AE4787211FEA4921005CF1DF /* qidong.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qidong.mp4; sourceTree = "<group>"; };
 		AE4787361FEA49D4005CF1DF /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,10 @@
 		AE629F9B1FFB5AAC00CC4DAC /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		AE629F9F1FFB5E9400CC4DAC /* LeftCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftCell.xib; sourceTree = "<group>"; };
 		AE629FA31FFB654E00CC4DAC /* LeftCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftCell.swift; sourceTree = "<group>"; };
+		AE7354491FFF51DE0038A919 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		AE7354531FFF5CD00038A919 /* IDcardViewService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDcardViewService.swift; sourceTree = "<group>"; };
+		AE7354551FFF5CD00038A919 /* IDcardListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDcardListModel.swift; sourceTree = "<group>"; };
+		AE73545E1FFF68B40038A919 /* IDcardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDcardViewController.swift; sourceTree = "<group>"; };
 		AEE153E91FFC89980042FA88 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
 		FC71728377DE8615A2D8994E /* Pods-UserAnimationPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserAnimationPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserAnimationPractice/Pods-UserAnimationPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +96,7 @@
 				AE4787131FEA4921005CF1DF /* Network */,
 				AE4787461FEA58ED005CF1DF /* Source */,
 				AE47874A1FEA6CDA005CF1DF /* Extension */,
+				AE73544D1FFF5CD00038A919 /* IDcard */,
 				AE47870E1FEA4921005CF1DF /* AppDelegate.swift */,
 				AE4787361FEA49D4005CF1DF /* MovieViewController.swift */,
 				AE4787121FEA4921005CF1DF /* MainViewController.swift */,
@@ -111,7 +118,6 @@
 				AE47871A1FEA4921005CF1DF /* TMBaseViewModel.swift */,
 				AE47871B1FEA4921005CF1DF /* TMJSONAble */,
 				AE47871E1FEA4921005CF1DF /* TMProgressHUD.swift */,
-				AE47871F1FEA4921005CF1DF /* TTmamaUser.swift */,
 				AE4787201FEA4921005CF1DF /* WangAPIService.swift */,
 			);
 			path = Network;
@@ -157,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				AE5FCED61FF4EA1B00BCCE50 /* UIBarButtonItem+Extension.swift */,
+				AE7354491FFF51DE0038A919 /* UIColor+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -177,6 +184,24 @@
 				AE4838BA1FE8B55500F27A91 /* UserAnimationPractice.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AE73544D1FFF5CD00038A919 /* IDcard */ = {
+			isa = PBXGroup;
+			children = (
+				AE7354531FFF5CD00038A919 /* IDcardViewService.swift */,
+				AE7354541FFF5CD00038A919 /* Model */,
+				AE73545E1FFF68B40038A919 /* IDcardViewController.swift */,
+			);
+			path = IDcard;
+			sourceTree = "<group>";
+		};
+		AE7354541FFF5CD00038A919 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE7354551FFF5CD00038A919 /* IDcardListModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C307C80B779CE79D45B12608 /* Pods */ = {
@@ -349,16 +374,19 @@
 				AE47872A1FEA4921005CF1DF /* RxSwift+TM_Response.swift in Sources */,
 				AE4787241FEA4921005CF1DF /* AppDelegate.swift in Sources */,
 				AE5FCED71FF4EA1B00BCCE50 /* UIBarButtonItem+Extension.swift in Sources */,
+				AE73545D1FFF5CD00038A919 /* IDcardListModel.swift in Sources */,
 				AE629F9A1FFB1DAA00CC4DAC /* BaseNavigationController.swift in Sources */,
 				AE47872B1FEA4921005CF1DF /* TM_Response.swift in Sources */,
+				AE73545F1FFF68B40038A919 /* IDcardViewController.swift in Sources */,
 				AE629F9C1FFB5AAC00CC4DAC /* LeftViewController.swift in Sources */,
 				AE4787321FEA4922005CF1DF /* WangAPIService.swift in Sources */,
 				AE47872F1FEA4921005CF1DF /* TMResponse+SwiftyJSONMapper.swift in Sources */,
 				AE4787271FEA4921005CF1DF /* MainViewController.swift in Sources */,
 				AE47872C1FEA4921005CF1DF /* TMApiUnit.swift in Sources */,
 				AEE153EA1FFC89980042FA88 /* DrawerViewController.swift in Sources */,
-				AE4787311FEA4922005CF1DF /* TTmamaUser.swift in Sources */,
+				AE73545C1FFF5CD00038A919 /* IDcardViewService.swift in Sources */,
 				AE4787291FEA4921005CF1DF /* Response+MapTMResponse.swift in Sources */,
+				AE73544A1FFF51DE0038A919 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
